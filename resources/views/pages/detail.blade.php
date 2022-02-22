@@ -29,7 +29,7 @@
                         </p>
                         <div class="gallery">
                             <div class="xzoom-container">
-                                <img src="frontpage/images/details-1.jpg" alt="" class="xzoom" id="xzoom-default" xoriginal="frontpage/images/details-1.jpg">
+                                <img src="{{ url('frontpage/images/details-1.jpg') }}" alt="" class="xzoom" id="xzoom-default" xoriginal="{{ url('frontpage/images/details-1.jpg') }}">
                             </div>
                             <div class="xzoom-thumbs">
                                 <a href="frontpage/images/details-1.jpg">
@@ -58,21 +58,21 @@
                         </p>
                         <div class="features row">
                             <div class="col-md-4">
-                                <img src="frontpage/images/ic_event.png" alt="" class="features-image">
+                                <img src="{{ url('frontpage/images/ic_event.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Featured Event</h3>
                                     <p>Tari Kecak</p>
                                 </div>
                             </div>
                             <div class="col-md-4 border-left">
-                                <img src="frontpage/images/ic_bahasa.png" alt="" class="features-image">
+                                <img src="{{ url('frontpage/images/ic_bahasa.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Language</h3>
                                     <p>Bahasa Indonesia</p>
                                 </div>
                             </div>
                             <div class="col-md-4 border-left">
-                                <img src="frontpage/images/ic_foods.png" alt="" class="features-image">
+                                <img src="{{ url('frontpage/images/ic_foods.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Foods</h3>
                                     <p>Local Foods</p>
@@ -85,9 +85,9 @@
                     <div class="card card-details card-right">
                         <h2>Members are going</h2>
                         <div class="members my-2">
-                            <img src="frontpage/images/avatar-1.png" alt="" class="member-image mr-1">
-                            <img src="frontpage/images/avatar-2.png" alt="" class="member-image mr-1">
-                            <img src="frontpage/images/avatar-3.png" alt="" class="member-image mr-1">
+                            <img src="{{ url('frontpage/images/avatar-1.png') }}" alt="" class="member-image mr-1">
+                            <img src="{{ url('frontpage/images/avatar-2.png') }}" alt="" class="member-image mr-1">
+                            <img src="{{ url('frontpage/images/avatar-3.png') }}" alt="" class="member-image mr-1">
                             <img src="frontpage/images/avatar-1.png" alt="" class="member-image mr-1">
                             <img src="frontpage/images/avatar-1.png" alt="" class="member-image mr-1">
                         </div>
@@ -121,7 +121,7 @@
                         </table>
                     </div>
                     <div class="join-container">
-                        <a href="#" class="btn btn-block btn-join-now mt-3 py-2">
+                        <a href="{{ route('checkout') }}" class="btn btn-block btn-join-now mt-3 py-2">
                             Join Now
                         </a>
                     </div>

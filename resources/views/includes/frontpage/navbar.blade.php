@@ -2,7 +2,7 @@
 <div class="container">
     <nav class="row navbar navbar-expand-lg navbar-light bg-white">
         <!-- Logo -->
-        <a href="#" class="navbar-brand">
+        <a href="{{ url('/') }}" class="navbar-brand">
             <img src="frontpage/images/logo.png" alt="Logo">
         </a>
         <!-- Logo -->
